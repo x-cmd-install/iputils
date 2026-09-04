@@ -7,7 +7,7 @@ about:
   head: 08999d8
   archived: false
   latestVersion: 20250605
-  collectedAt: 2026-09-04T19:20:12Z
+  collectedAt: 2026-09-04T21:12:48Z
 timeline:
   created: 2014-04-18
   lastCommit: 2026-08-19
@@ -85,6 +85,64 @@ total:
   openIssue: 61
   commit: 1394
 ---
+path: /home/runner/.x-repo/github.com/iputils/iputils
+collectedAt: 2026-09-04T21:12:49Z
+loc:
+  C:
+    code: 6063
+    comments: 724
+    blanks: 979
+    files: 11
+  Xml:
+    code: 1837
+    comments: 0
+    blanks: 32
+    files: 4
+  CHeader:
+    code: 541
+    comments: 60
+    blanks: 108
+    files: 7
+  Sh:
+    code: 538
+    comments: 80
+    blanks: 135
+    files: 15
+  Meson:
+    code: 494
+    comments: 32
+    blanks: 91
+    files: 10
+  XSL:
+    code: 241
+    comments: 49
+    blanks: 35
+    files: 2
+  Python:
+    code: 57
+    comments: 3
+    blanks: 8
+    files: 1
+  Perl:
+    code: 19
+    comments: 3
+    blanks: 9
+    files: 1
+  Makefile:
+    code: 11
+    comments: 0
+    blanks: 5
+    files: 1
+  Markdown:
+    code: 0
+    comments: 88
+    blanks: 24
+    files: 2
+total:
+  code: 9801
+  comments: 1039
+  blanks: 1426
+  files: 54
 ---
 date: "2026-08-24"
 repo:
