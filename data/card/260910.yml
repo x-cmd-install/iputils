@@ -7,7 +7,7 @@ about:
   latestVersion: "20250605"
   latestRelease: "20250605"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T05:10:35Z
+  collectedAt: 2026-09-10T20:55:38Z
 timeline:
   created: 2014-04-18
   lastCommit: 2026-09-09
@@ -88,7 +88,7 @@ total:
   commit: 1402
 ---
 path: /home/runner/.x-repo/github.com/iputils/iputils
-collectedAt: 2026-09-10T05:10:37Z
+collectedAt: 2026-09-10T20:55:39Z
 loc:
   C:
     code: 6063
