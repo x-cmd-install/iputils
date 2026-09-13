@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 17 · **Merged PRs**: 120 · **Open PRs**: 21 · **Closed issues**: 175 · **Open issues**: 62 · **Commits**: 1402
+- **Releases**: 17 · **Merged PRs**: 120 · **Open PRs**: 23 · **Closed issues**: 176 · **Open issues**: 61 · **Commits**: 1402
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-13 | 0 | 1 | 2 | 0 | 2 | 11 |
-| last60d | 2026-07-14 | 0 | 1 | 2 | 0 | 3 | 26 |
-| 90d | 2026-06-14 | 0 | 1 | 2 | 0 | 4 | 27 |
-| last180d | 2026-03-16 | 0 | 1 | 6 | 0 | 6 | 35 |
-| 360d | 2025-09-17 | 0 | 2 | 8 | 0 | 6 | 53 |
-| last720d | 2024-09-22 | 2 | 7 | 11 | 6 | 21 | 141 |
+| 30d | 2026-08-14 | 0 | 1 | 4 | 1 | 0 | 6 |
+| last60d | 2026-07-15 | 0 | 1 | 4 | 1 | 1 | 24 |
+| 90d | 2026-06-15 | 0 | 1 | 4 | 1 | 3 | 26 |
+| last180d | 2026-03-17 | 0 | 1 | 8 | 1 | 5 | 35 |
+| 360d | 2025-09-18 | 0 | 2 | 10 | 1 | 5 | 53 |
+| last720d | 2024-09-23 | 2 | 7 | 13 | 7 | 20 | 141 |
 
 ## Release assets
 
@@ -104,4 +104,4 @@ Install metadata for iputils lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260912.yml` · 2026-09-12T04:56:24Z._
+_Snapshot: `data/card/260913.yml` · 2026-09-13T05:22:28Z._
