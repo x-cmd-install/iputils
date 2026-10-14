@@ -31,8 +31,8 @@ Overall score: **5.3 / 10**
 Lowest-scoring checks:
 
 - **Code-Review** (0/10) — Found 1/24 approved changesets -- score normalized to 0
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 728 · **Forks**: 287 · **Open issues**: 237 · **Contributors**: 137
+- **Stars**: 729 · **Forks**: 287 · **Open issues**: 237 · **Contributors**: 137
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-14 | 0 | 1 | 4 | 1 | 0 | 10 |
-| 90d | 2026-07-15 | 0 | 1 | 4 | 1 | 1 | 24 |
-| last180d | 2026-04-16 | 0 | 1 | 7 | 1 | 4 | 32 |
-| 360d | 2025-10-18 | 0 | 1 | 10 | 1 | 5 | 50 |
-| last720d | 2024-10-23 | 2 | 7 | 12 | 7 | 18 | 124 |
+| 30d | 2026-09-14 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-15 | 0 | 1 | 4 | 1 | 0 | 10 |
+| 90d | 2026-07-16 | 0 | 1 | 4 | 1 | 1 | 24 |
+| last180d | 2026-04-17 | 0 | 1 | 7 | 1 | 4 | 32 |
+| 360d | 2025-10-19 | 0 | 1 | 10 | 1 | 5 | 50 |
+| last720d | 2024-10-24 | 2 | 7 | 12 | 7 | 18 | 124 |
 
 ## Release assets
 
@@ -85,4 +85,4 @@ Install metadata for iputils lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T07:19:21Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T05:15:00Z._
