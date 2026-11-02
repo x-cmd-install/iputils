@@ -57,12 +57,12 @@ x install iputils
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 0 | 8 | 0 | 1 | 2 |
-| last60d | 2026-09-02 | 0 | 0 | 11 | 1 | 1 | 4 |
-| 90d | 2026-08-03 | 0 | 1 | 11 | 1 | 2 | 15 |
-| last180d | 2026-05-05 | 0 | 1 | 14 | 1 | 5 | 33 |
-| 360d | 2025-11-06 | 0 | 1 | 17 | 1 | 6 | 52 |
-| last720d | 2024-11-11 | 2 | 7 | 19 | 7 | 19 | 128 |
+| 30d | 2026-10-03 | 0 | 0 | 8 | 0 | 1 | 2 |
+| last60d | 2026-09-03 | 0 | 0 | 11 | 1 | 1 | 4 |
+| 90d | 2026-08-04 | 0 | 1 | 11 | 1 | 2 | 15 |
+| last180d | 2026-05-06 | 0 | 1 | 14 | 1 | 5 | 33 |
+| 360d | 2025-11-07 | 0 | 1 | 17 | 1 | 6 | 52 |
+| last720d | 2024-11-12 | 2 | 7 | 19 | 7 | 19 | 128 |
 
 ## Release 资产
 
@@ -78,7 +78,7 @@ x install iputils
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/iputils) 上共有 **242** 个发行版报告此项目。**81** 个 ✅ 已是最新上游版本，**145** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/iputils) 上共有 **242** 个发行版报告此项目。**79** 个 ✅ 已是最新上游版本，**147** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -88,7 +88,7 @@ x install iputils
 | Ubuntu 26.04 LTS | `20250605` | ✅ latest |
 | Ubuntu 24.04 LTS | `20240117` | ⚠️ outdated |
 | Arch | `20250605` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `20250605` | ✅ latest |
 | Fedora rawhide | `20250605` | ✅ latest |
 | Nix unstable | `20250605` | ✅ latest |
 | Void | `20250605` | ✅ latest |
@@ -104,4 +104,4 @@ iputils 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261101.yml` · 2026-11-01T06:24:12Z._
+_数据快照: `data/card/261102.yml` · 2026-11-02T06:25:04Z._
