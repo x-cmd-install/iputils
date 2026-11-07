@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `20250605` (2025-06-05)
-- **Last commit**: 2026-10-16
+- **Last commit**: 2026-11-06
 - **Assets in release**: 7
 
 ## Popularity
 
-- **Stars**: 737 · **Forks**: 290 · **Open issues**: 238 · **Contributors**: 137
+- **Stars**: 737 · **Forks**: 291 · **Open issues**: 237 · **Contributors**: 138
 
 ## Totals (cumulative)
 
-- **Releases**: 17 · **Merged PRs**: 120 · **Open PRs**: 30 · **Closed issues**: 176 · **Open issues**: 62 · **Commits**: 1406
+- **Releases**: 17 · **Merged PRs**: 120 · **Open PRs**: 30 · **Closed issues**: 175 · **Open issues**: 62 · **Commits**: 1407
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 0 | 8 | 0 | 1 | 2 |
-| last60d | 2026-09-07 | 0 | 0 | 11 | 1 | 1 | 4 |
-| 90d | 2026-08-08 | 0 | 1 | 11 | 1 | 2 | 15 |
-| last180d | 2026-05-10 | 0 | 1 | 14 | 1 | 5 | 33 |
-| 360d | 2025-11-11 | 0 | 1 | 17 | 1 | 6 | 52 |
-| last720d | 2024-11-16 | 2 | 7 | 19 | 7 | 18 | 115 |
+| 30d | 2026-10-08 | 0 | 0 | 8 | 0 | 1 | 3 |
+| last60d | 2026-09-08 | 0 | 0 | 11 | 1 | 1 | 5 |
+| 90d | 2026-08-09 | 0 | 1 | 11 | 1 | 2 | 16 |
+| last180d | 2026-05-11 | 0 | 1 | 14 | 1 | 5 | 34 |
+| 360d | 2025-11-12 | 0 | 1 | 17 | 1 | 6 | 53 |
+| last720d | 2024-11-17 | 2 | 7 | 19 | 7 | 18 | 116 |
 
 ## Release assets
 
@@ -78,7 +78,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **242** distros on [repology.org](https://repology.org/project/iputils). **78** are ✅ on the latest upstream release, **148** are ⚠️ on an older version.
+Reported by **243** distros on [repology.org](https://repology.org/project/iputils). **82** are ✅ on the latest upstream release, **145** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -104,4 +104,4 @@ Install metadata for iputils lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:07:03Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:18:49Z._
