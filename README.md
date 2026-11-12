@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 737 · **Forks**: 290 · **Open issues**: 237 · **Contributors**: 138
+- **Stars**: 737 · **Forks**: 291 · **Open issues**: 237 · **Contributors**: 138
 
 ## Totals (cumulative)
 
-- **Releases**: 17 · **Merged PRs**: 120 · **Open PRs**: 30 · **Closed issues**: 175 · **Open issues**: 62 · **Commits**: 1407
+- **Releases**: 17 · **Merged PRs**: 120 · **Open PRs**: 31 · **Closed issues**: 175 · **Open issues**: 62 · **Commits**: 1407
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 0 | 8 | 0 | 1 | 1 |
-| last60d | 2026-09-12 | 0 | 0 | 8 | 0 | 1 | 4 |
-| 90d | 2026-08-13 | 0 | 1 | 11 | 1 | 2 | 16 |
-| last180d | 2026-05-15 | 0 | 1 | 14 | 1 | 4 | 32 |
-| 360d | 2025-11-16 | 0 | 1 | 17 | 1 | 6 | 51 |
-| last720d | 2024-11-21 | 2 | 7 | 19 | 7 | 18 | 116 |
+| 30d | 2026-10-13 | 0 | 0 | 9 | 0 | 1 | 1 |
+| last60d | 2026-09-13 | 0 | 0 | 9 | 0 | 1 | 4 |
+| 90d | 2026-08-14 | 0 | 1 | 12 | 1 | 1 | 16 |
+| last180d | 2026-05-16 | 0 | 1 | 15 | 1 | 4 | 32 |
+| 360d | 2025-11-17 | 0 | 1 | 18 | 1 | 6 | 51 |
+| last720d | 2024-11-22 | 2 | 7 | 20 | 7 | 18 | 116 |
 
 ## Release assets
 
@@ -78,7 +78,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **243** distros on [repology.org](https://repology.org/project/iputils). **82** are ✅ on the latest upstream release, **145** are ⚠️ on an older version.
+Reported by **242** distros on [repology.org](https://repology.org/project/iputils). **82** are ✅ on the latest upstream release, **144** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -104,4 +104,4 @@ Install metadata for iputils lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T06:44:53Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T07:44:00Z._
