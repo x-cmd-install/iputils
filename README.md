@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 0 | 0 | 9 | 0 | 1 | 1 |
-| last60d | 2026-09-15 | 0 | 0 | 9 | 0 | 1 | 4 |
-| 90d | 2026-08-16 | 0 | 1 | 12 | 1 | 1 | 16 |
-| last180d | 2026-05-18 | 0 | 1 | 14 | 1 | 4 | 32 |
-| 360d | 2025-11-19 | 0 | 1 | 18 | 1 | 6 | 51 |
-| last720d | 2024-11-24 | 2 | 7 | 20 | 7 | 18 | 116 |
+| 30d | 2026-10-16 | 0 | 0 | 8 | 0 | 1 | 1 |
+| last60d | 2026-09-16 | 0 | 0 | 9 | 0 | 1 | 3 |
+| 90d | 2026-08-17 | 0 | 1 | 12 | 1 | 1 | 10 |
+| last180d | 2026-05-19 | 0 | 1 | 14 | 1 | 4 | 32 |
+| 360d | 2025-11-20 | 0 | 1 | 18 | 1 | 6 | 51 |
+| last720d | 2024-11-25 | 2 | 7 | 20 | 7 | 18 | 116 |
 
 ## Release assets
 
@@ -104,4 +104,4 @@ Install metadata for iputils lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T06:55:55Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T07:01:07Z._
