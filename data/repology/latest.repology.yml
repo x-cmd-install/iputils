@@ -1,39 +1,3 @@
-- repo: manjaro_stable
-  subrepo: core
-  srcname: iputils
-  binname: iputils
-  visiblename: iputils
-  version: "20250605"
-  origversion: 20250605-1
-  status: newest
-  summary: Network monitoring tools, including ping
-  licenses:
-    - BSD-3-Clause
-    - GPL-2.0-or-later
-- repo: manjaro_testing
-  subrepo: core
-  srcname: iputils
-  binname: iputils
-  visiblename: iputils
-  version: "20250605"
-  origversion: 20250605-1
-  status: newest
-  summary: Network monitoring tools, including ping
-  licenses:
-    - BSD-3-Clause
-    - GPL-2.0-or-later
-- repo: manjaro_unstable
-  subrepo: core
-  srcname: iputils
-  binname: iputils
-  visiblename: iputils
-  version: "20250605"
-  origversion: 20250605-1
-  status: newest
-  summary: Network monitoring tools, including ping
-  licenses:
-    - BSD-3-Clause
-    - GPL-2.0-or-later
 - repo: aerynos
   srcname: iputils
   visiblename: iputils
@@ -45,6 +9,18 @@
     - GPL-2.0-or-later
     - BSD-3-Clause
     - Rdisc
+- repo: aosc
+  srcname: app-utils/iputils
+  binname: iputils
+  visiblename: iputils
+  version: "20250605"
+  origversion: null
+  status: newest
+  summary: Set of utilities for Linux networking
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - utils
 - repo: alpine_3_23
   subrepo: main
   srcname: iputils
@@ -298,18 +274,6 @@
     - BSD-3-Clause and GPL-2.0+
   categories:
     - Networking/Other
-- repo: aosc
-  srcname: app-utils/iputils
-  binname: iputils
-  visiblename: iputils
-  version: "20250605"
-  origversion: null
-  status: newest
-  summary: Set of utilities for Linux networking
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - utils
 - repo: arch
   subrepo: core
   srcname: iputils
@@ -660,18 +624,6 @@
     - BSD arping? ( GPL-2+ ) clockdiff? ( BSD ) tracepath? ( GPL-2+ )
   categories:
     - net-misc
-- repo: nix_stable_25_05
-  srcname: iputils
-  visiblename: iputils
-  version: "20250605"
-  origversion: null
-  status: newest
-  summary: Set of small useful utilities for Linux networking
-  maintainers:
-    - dev.primeos@gmail.com
-  licenses:
-    - GPL-2.0-or-later
-    - BSD-3-Clause
 - repo: liguros_stable
   srcname: net-misc/iputils
   visiblename: net-misc/iputils
@@ -767,6 +719,54 @@
     - BSD
   categories:
     - System/Base
+- repo: manjaro_stable
+  subrepo: core
+  srcname: iputils
+  binname: iputils
+  visiblename: iputils
+  version: "20250605"
+  origversion: 20250605-1
+  status: newest
+  summary: Network monitoring tools, including ping
+  licenses:
+    - BSD-3-Clause
+    - GPL-2.0-or-later
+- repo: manjaro_testing
+  subrepo: core
+  srcname: iputils
+  binname: iputils
+  visiblename: iputils
+  version: "20250605"
+  origversion: 20250605-1
+  status: newest
+  summary: Network monitoring tools, including ping
+  licenses:
+    - BSD-3-Clause
+    - GPL-2.0-or-later
+- repo: manjaro_unstable
+  subrepo: core
+  srcname: iputils
+  binname: iputils
+  visiblename: iputils
+  version: "20250605"
+  origversion: 20250605-1
+  status: newest
+  summary: Network monitoring tools, including ping
+  licenses:
+    - BSD-3-Clause
+    - GPL-2.0-or-later
+- repo: nix_stable_25_05
+  srcname: iputils
+  visiblename: iputils
+  version: "20250605"
+  origversion: null
+  status: newest
+  summary: Set of small useful utilities for Linux networking
+  maintainers:
+    - dev.primeos@gmail.com
+  licenses:
+    - GPL-2.0-or-later
+    - BSD-3-Clause
 - repo: nix_stable_25_11
   srcname: iputils
   visiblename: iputils
@@ -780,39 +780,27 @@
     - GPL-2.0-or-later
     - BSD-3-Clause
 - repo: nix_stable_26_05
-  srcname: unixtools.ping
+  srcname: iputils
   visiblename: iputils
   version: "20250605"
   origversion: null
   status: newest
+  summary: Set of small useful utilities for Linux networking
   maintainers:
-    - fallback-mnt-nix@repology
-  categories:
-    - unixtools
+    - nix@mdaniels.me
+  licenses:
+    - GPL-2.0-or-later
+    - BSD-3-Clause
 - repo: nix_stable_26_05
-  srcname: iputils
+  srcname: unixtools.ping
   visiblename: iputils
   version: "20250605"
   origversion: null
   status: newest
-  summary: Set of small useful utilities for Linux networking
   maintainers:
-    - nix@mdaniels.me
-  licenses:
-    - GPL-2.0-or-later
-    - BSD-3-Clause
-- repo: nix_unstable
-  srcname: iputils
-  visiblename: iputils
-  version: "20250605"
-  origversion: null
-  status: newest
-  summary: Set of small useful utilities for Linux networking
-  maintainers:
-    - nix@mdaniels.me
-  licenses:
-    - GPL-2.0-or-later
-    - BSD-3-Clause
+    - fallback-mnt-nix@repology
+  categories:
+    - unixtools
 - repo: nix_unstable
   srcname: unixtools.ping
   visiblename: iputils
@@ -826,6 +814,18 @@
     - BSD-3-Clause
   categories:
     - unixtools
+- repo: nix_unstable
+  srcname: iputils
+  visiblename: iputils
+  version: "20250605"
+  origversion: null
+  status: newest
+  summary: Set of small useful utilities for Linux networking
+  maintainers:
+    - nix@mdaniels.me
+  licenses:
+    - GPL-2.0-or-later
+    - BSD-3-Clause
 - repo: openkylin_3_0
   subrepo: huanghe/main
   srcname: iputils
@@ -940,16 +940,6 @@
   version: "20250605"
   origversion: 20250605-2
   status: newest
-- repo: pclinuxos
-  srcname: iputils
-  visiblename: iputils
-  version: "20101006"
-  origversion: 20101006-1pclos2011
-  status: outdated
-  summary: Network monitoring tools including ping
-  categories:
-    - System/Base
-  vulnerable: true
 - repo: raspbian_testing
   subrepo: main
   srcname: iputils
@@ -1148,6 +1138,21 @@
   origversion: null
   status: newest
   summary: collection of network software (arping, clockdiff, ping, tracepath)
+- repo: apertis_v2023
+  subrepo: v2023/development
+  srcname: iputils
+  binnames:
+    - iputils-ping
+    - iputils-tracepath
+    - iputils-arping
+    - iputils-clockdiff
+  visiblename: iputils
+  version: "20210202"
+  origversion: 3:20210202-1apertis1
+  status: outdated
+  maintainers:
+    - noahm@debian.org
+  vulnerable: true
 - repo: adelie_current
   subrepo: user
   srcname: iputils
@@ -1175,6 +1180,23 @@
     - djt@hxx.in
   licenses:
     - BSD-3-Clause AND GPL-2.0-or-later
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: iputils
+  binnames:
+    - iputils-ping
+    - iputils-tracepath
+    - iputils-arping
+    - iputils-clockdiff
+  visiblename: iputils
+  version: "20240905"
+  origversion: 3:20240905-3
+  status: outdated
+  maintainers:
+    - noahm@debian.org
+  categories:
+    - net
   vulnerable: true
 - repo: adelie_current
   subrepo: user
@@ -1420,6 +1442,21 @@
     - ncopa@alpinelinux.org
   licenses:
     - BSD-3-Clause AND GPL-2.0-or-later
+  vulnerable: true
+- repo: apertis_v2026
+  subrepo: v2026/development
+  srcname: iputils
+  binnames:
+    - iputils-ping
+    - iputils-tracepath
+    - iputils-arping
+    - iputils-clockdiff
+  visiblename: iputils
+  version: "20240905"
+  origversion: 3:20240905-3+apertis0
+  status: outdated
+  maintainers:
+    - noahm@debian.org
   vulnerable: true
 - repo: alpine_3_20
   subrepo: main
@@ -1678,21 +1715,6 @@
   categories:
     - System Environment/Daemons
   vulnerable: true
-- repo: apertis_v2023
-  subrepo: v2023/development
-  srcname: iputils
-  binnames:
-    - iputils-ping
-    - iputils-tracepath
-    - iputils-arping
-    - iputils-clockdiff
-  visiblename: iputils
-  version: "20210202"
-  origversion: 3:20210202-1apertis1
-  status: outdated
-  maintainers:
-    - noahm@debian.org
-  vulnerable: true
 - repo: apertis_v2024
   subrepo: v2024/development
   srcname: iputils
@@ -1719,21 +1741,6 @@
   visiblename: iputils
   version: "20221126"
   origversion: 3:20221126-1+deb12u1+apertis0
-  status: outdated
-  maintainers:
-    - noahm@debian.org
-  vulnerable: true
-- repo: apertis_v2026
-  subrepo: v2026/development
-  srcname: iputils
-  binnames:
-    - iputils-ping
-    - iputils-tracepath
-    - iputils-arping
-    - iputils-clockdiff
-  visiblename: iputils
-  version: "20240905"
-  origversion: 3:20240905-3+apertis0
   status: outdated
   maintainers:
     - noahm@debian.org
@@ -1956,20 +1963,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: nix_stable_24_05
-  srcname: iputils
-  visiblename: iputils
-  version: "20240117"
-  origversion: null
-  status: outdated
-  summary: A set of small useful utilities for Linux networking
-  maintainers:
-    - dev.primeos@gmail.com
-    - git@sphalerite.org
-  licenses:
-    - GPL-2.0-or-later
-    - BSD-3-Clause
-  vulnerable: true
 - repo: centos_stream_10
   subrepo: BaseOS
   srcname: iputils
@@ -2093,6 +2086,23 @@
   categories:
     - net
   vulnerable: true
+- repo: raspbian_stable
+  subrepo: main
+  srcname: iputils
+  binnames:
+    - iputils-ping
+    - iputils-tracepath
+    - iputils-arping
+    - iputils-clockdiff
+  visiblename: iputils
+  version: "20240905"
+  origversion: 3:20240905-3
+  status: outdated
+  maintainers:
+    - noahm@debian.org
+  categories:
+    - net
+  vulnerable: true
 - repo: debian_12
   subrepo: bookworm/main
   srcname: iputils
@@ -2126,21 +2136,6 @@
     - noahm@debian.org
   categories:
     - net
-  vulnerable: true
-- repo: deepin_unstable
-  subrepo: main
-  srcname: iputils
-  binnames:
-    - iputils-ping
-    - iputils-tracepath
-    - iputils-arping
-    - iputils-clockdiff
-  visiblename: iputils
-  version: "20180629"
-  origversion: 3:20180629-2+deb10u2
-  status: outdated
-  maintainers:
-    - noahm@debian.org
   vulnerable: true
 - repo: deepin_23
   subrepo: main
@@ -2209,6 +2204,16 @@
     - noahm@debian.org
   categories:
     - net
+  vulnerable: true
+- repo: pclinuxos
+  srcname: iputils
+  visiblename: iputils
+  version: "20101006"
+  origversion: 20101006-1pclos2011
+  status: outdated
+  summary: Network monitoring tools including ping
+  categories:
+    - System/Base
   vulnerable: true
 - repo: distri
   srcname: iputils
@@ -2388,19 +2393,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: nix_stable_24_11
-  srcname: iputils
-  visiblename: iputils
-  version: "20240905"
-  origversion: null
-  status: outdated
-  summary: Set of small useful utilities for Linux networking
-  maintainers:
-    - dev.primeos@gmail.com
-  licenses:
-    - GPL-2.0-or-later
-    - BSD-3-Clause
-  vulnerable: true
 - repo: gobolinux
   srcname: IPUtils
   visiblename: IPUtils
@@ -2439,6 +2431,19 @@
   categories:
     - net-misc
   vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: updates/sle
+  srcname: iputils
+  visiblename: iputils
+  version: "20221126"
+  origversion: 20221126-150500.3.5.3
+  status: outdated
+  summary: IPv4 and IPv6 Networking Utilities
+  licenses:
+    - BSD-3-Clause AND GPL-2.0-or-later
+  categories:
+    - Productivity/Networking/Other
+  vulnerable: true
 - repo: liguros_stable
   srcname: net-misc/iputils
   visiblename: net-misc/iputils
@@ -2468,6 +2473,33 @@
     - BSD arping? ( GPL-2+ ) clockdiff? ( BSD ) tracepath? ( GPL-2+ )
   categories:
     - net-misc
+  vulnerable: true
+- repo: nix_stable_24_05
+  srcname: iputils
+  visiblename: iputils
+  version: "20240117"
+  origversion: null
+  status: outdated
+  summary: A set of small useful utilities for Linux networking
+  maintainers:
+    - dev.primeos@gmail.com
+    - git@sphalerite.org
+  licenses:
+    - GPL-2.0-or-later
+    - BSD-3-Clause
+  vulnerable: true
+- repo: nix_stable_24_11
+  srcname: iputils
+  visiblename: iputils
+  version: "20240905"
+  origversion: null
+  status: outdated
+  summary: Set of small useful utilities for Linux networking
+  maintainers:
+    - dev.primeos@gmail.com
+  licenses:
+    - GPL-2.0-or-later
+    - BSD-3-Clause
   vulnerable: true
 - repo: openeuler_20_03_lts_sp3
   srcname: iputils
@@ -2760,19 +2792,6 @@
   srcname: iputils
   visiblename: iputils
   version: "20221126"
-  origversion: 20221126-150500.3.5.3
-  status: outdated
-  summary: IPv4 and IPv6 Networking Utilities
-  licenses:
-    - BSD-3-Clause AND GPL-2.0-or-later
-  categories:
-    - Productivity/Networking/Other
-  vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: updates/sle
-  srcname: iputils
-  visiblename: iputils
-  version: "20221126"
   origversion: 20221126-150500.3.8.2
   status: outdated
   summary: IPv4 and IPv6 Networking Utilities
@@ -2782,19 +2801,6 @@
     - Productivity/Networking/Other
   vulnerable: true
 - repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: iputils
-  visiblename: iputils
-  version: "20221126"
-  origversion: 20221126-150500.1.1
-  status: outdated
-  summary: IPv4 and IPv6 Networking Utilities
-  licenses:
-    - BSD-3-Clause AND GPL-2.0-or-later
-  categories:
-    - Productivity/Networking/Other
-  vulnerable: true
-- repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: iputils
   visiblename: iputils
@@ -2852,6 +2858,19 @@
   visiblename: iputils
   version: "20221126"
   origversion: 20221126-150500.3.8.2
+  status: outdated
+  summary: IPv4 and IPv6 Networking Utilities
+  licenses:
+    - BSD-3-Clause AND GPL-2.0-or-later
+  categories:
+    - Productivity/Networking/Other
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: iputils
+  visiblename: iputils
+  version: "20221126"
+  origversion: 20221126-150500.1.1
   status: outdated
   summary: IPv4 and IPv6 Networking Utilities
   licenses:
@@ -2981,23 +3000,6 @@
     - net
   vulnerable: true
 - repo: parrot
-  subrepo: parrot-updates/main
-  srcname: iputils
-  binnames:
-    - iputils-ping
-    - iputils-tracepath
-    - iputils-arping
-    - iputils-clockdiff
-  visiblename: iputils
-  version: "20240905"
-  origversion: 3:20240905-3
-  status: outdated
-  maintainers:
-    - noahm@debian.org
-  categories:
-    - net
-  vulnerable: true
-- repo: parrot
   subrepo: parrot/main
   srcname: iputils
   binnames:
@@ -3100,23 +3102,6 @@
   visiblename: iputils
   version: "20221126"
   origversion: 3:20221126-1+deb12u1
-  status: outdated
-  maintainers:
-    - noahm@debian.org
-  categories:
-    - net
-  vulnerable: true
-- repo: raspbian_stable
-  subrepo: main
-  srcname: iputils
-  binnames:
-    - iputils-ping
-    - iputils-tracepath
-    - iputils-arping
-    - iputils-clockdiff
-  visiblename: iputils
-  version: "20240905"
-  origversion: 3:20240905-3
   status: outdated
   maintainers:
     - noahm@debian.org
@@ -3270,23 +3255,6 @@
     - net
   vulnerable: true
 - repo: ubuntu_18_04
-  subrepo: bionic/main
-  srcname: iputils
-  binnames:
-    - iputils-ping
-    - iputils-tracepath
-    - iputils-arping
-    - iputils-clockdiff
-  visiblename: iputils
-  version: "20161105"
-  origversion: 3:20161105-1ubuntu2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - net
-  vulnerable: true
-- repo: ubuntu_18_04
   subrepo: bionic-updates/main
   srcname: iputils
   binnames:
@@ -3303,8 +3271,8 @@
   categories:
     - net
   vulnerable: true
-- repo: ubuntu_20_04
-  subrepo: focal-updates/main
+- repo: ubuntu_18_04
+  subrepo: bionic/main
   srcname: iputils
   binnames:
     - iputils-ping
@@ -3312,8 +3280,8 @@
     - iputils-arping
     - iputils-clockdiff
   visiblename: iputils
-  version: "20190709"
-  origversion: 3:20190709-3ubuntu1
+  version: "20161105"
+  origversion: 3:20161105-1ubuntu2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -3334,6 +3302,23 @@
   status: outdated
   maintainers:
     - noahm@debian.org
+  categories:
+    - net
+  vulnerable: true
+- repo: ubuntu_20_04
+  subrepo: focal-updates/main
+  srcname: iputils
+  binnames:
+    - iputils-ping
+    - iputils-tracepath
+    - iputils-arping
+    - iputils-clockdiff
+  visiblename: iputils
+  version: "20190709"
+  origversion: 3:20190709-3ubuntu1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - net
   vulnerable: true
@@ -3372,23 +3357,6 @@
     - net
   vulnerable: true
 - repo: ubuntu_24_04
-  subrepo: noble-updates/main
-  srcname: iputils
-  binnames:
-    - iputils-ping
-    - iputils-tracepath
-    - iputils-arping
-    - iputils-clockdiff
-  visiblename: iputils
-  version: "20240117"
-  origversion: 3:20240117-1ubuntu0.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - net
-  vulnerable: true
-- repo: ubuntu_24_04
   subrepo: noble/main
   srcname: iputils
   binnames:
@@ -3405,8 +3373,8 @@
   categories:
     - net
   vulnerable: true
-- repo: ubuntu_25_04
-  subrepo: plucky/main
+- repo: ubuntu_24_04
+  subrepo: noble-updates/main
   srcname: iputils
   binnames:
     - iputils-ping
@@ -3414,8 +3382,8 @@
     - iputils-arping
     - iputils-clockdiff
   visiblename: iputils
-  version: "20240905"
-  origversion: 3:20240905-1ubuntu1
+  version: "20240117"
+  origversion: 3:20240117-1ubuntu0.1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -3433,6 +3401,23 @@
   visiblename: iputils
   version: "20240905"
   origversion: 3:20240905-1ubuntu1.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - net
+  vulnerable: true
+- repo: ubuntu_25_04
+  subrepo: plucky/main
+  srcname: iputils
+  binnames:
+    - iputils-ping
+    - iputils-tracepath
+    - iputils-arping
+    - iputils-clockdiff
+  visiblename: iputils
+  version: "20240905"
+  origversion: 3:20240905-1ubuntu1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
